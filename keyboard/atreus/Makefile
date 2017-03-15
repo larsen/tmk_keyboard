@@ -100,6 +100,7 @@ F_USB = $(F_CPU)
 
 # Interrupt driven control endpoint task(+60)
 OPT_DEFS += -DINTERRUPT_CONTROL_ENDPOINT
+OPT_DEFS += -DPCBDOWN
 
 
 # Boot Section Size in *bytes*
